@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="num_con">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>10</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>32</item>
+        <item>48</item>
+        <item>64</item>
+    </string-array>
+    <string name="numcon">No_of_Connections</string>
+    <string name="Desc">NO. OF CONNECTIONS</string>
+    <string name="log">Log</string>
+    <string name="down">Download Now</string>
+	<string name="sch">Schedule Download</string>
+	<string name="faq">FAQs</string>
+	<string name="cnct">Contact Developer</string>
+	<string name="ext">Exit</string>
+	<string name="rate">Rate this App</string>
+	<string name="submit">Submit</string>
+	<string name="rate_our_app">Please Rate our App!</string>
+	<string name="folks">Hello Folks!</string>
+	<string name="info">For your assistance to use this App, please go through FAQ section. If you have any future querries or bug reporting, please feel free to mail us at </string>
+	<string name="email">adm.contact@gmail.com</string>
+	<string name="enter">Enter the URL</string>
+	<string name="download">Download</string>
+	<string name="schdown">Schedule Download</string>
+	<string name="open">Open</string>
+	<string name="faqs">1) What is ADM?\n
+				Ans: Absolute Download Manager\n\n
+				2) How to set the number of parallel connections?\n
+				Ans: Goto Mainpage -> Downloads, then select from the dropdown list.\n\n
+				3) How to schedule a download?\n
+				Ans: Goto Mainpage -> Scheduler, then set the time for scheduling. Then press the schedule button.
+				Downloading automatically starts after the scheduling at the scheduled time\n\n
+				4) How to check the list of files downloaded?\n
+				Ans: Goto Mainpage -> log. There you will find the list of downloaded files.\n\n</string>
+	
+</resources>

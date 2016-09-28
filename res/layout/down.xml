@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg">
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="288dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+    	 android:layout_alignParentLeft="true"
+    	 android:layout_marginTop="129dp"
+    	 android:layout_marginLeft="6dp"
+         android:ems="10" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+    	 
+    	 android:layout_marginTop="10dp"
+    	 
+         android:textStyle="bold"
+         android:text="@string/Desc" />
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="102dp"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+    	 
+    	 android:layout_marginTop="34dp"
+    	 
+         android:entries="@array/num_con"
+         android:prompt="@string/numcon"/>
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+    	 android:layout_alignParentLeft="true"
+    	 android:layout_marginTop="103dp"
+    	 android:layout_marginLeft="10dp"
+         android:text="@string/enter"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/b1"
+         android:layout_width="101dp"
+         android:layout_height="76dp"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+    	 
+    	 android:layout_marginTop="230dp"
+    	 
+         android:background="@drawable/downloadicon"
+         android:onClick="downloadFile" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+    	 
+    	 android:layout_marginTop="314dp"
+    	 
+         android:onClick="d"
+         android:text="@string/download"
+         android:textStyle="bold" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="88dp"
+         android:layout_height="44dp"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+    	 android:layout_marginTop="366dp"
+    	 
+         android:background="@drawable/open" />
+
+</RelativeLayout>
